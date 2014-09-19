@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gnuplot</name>
+  <summary xml:lang="en">famous scientific plotting package</summary>
+  <summary xml:lang="de">berühmtes wissenschaftliches Plotting-Paket</summary>
+  <description xml:lang="en">Gnuplot is a portable command-line driven graphing utility.</description>
+  <description xml:lang="de">Gnuplot ist ein portierbares Befehlszeilen-getriebes Graph-Tool.</description>
+  <homepage>http://gnuplot.sourceforge.net/</homepage>
+  <icon href="http://0install.de/feeds/images/gnuplot.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/gnuplot.ico" type="image/vnd.microsoft.icon" />
+  <category>Graphics</category>
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/gnuplot.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <command name="run" path="bin/wgnuplot.exe" />
+    <command name="cli" path="bin/gnuplot.exe" />
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/gnuplot/gp{build}-win64.zip" type="application/zip" extract="gnuplot" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/gnuplot/gp{build}-win32.zip" type="application/zip" extract="gnuplot" />
+    </implementation>
+  </group>
+</interface>

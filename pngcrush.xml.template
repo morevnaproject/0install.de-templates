@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>pngcrush</name>
+  <summary xml:lang="en">optimizer for PNG files</summary>
+  <description xml:lang="en">Pngcrush is an optimizer for PNG (Portable Network Graphics) files.</description>
+  <homepage>http://pmt.sourceforge.net/pngcrush/</homepage>
+  <category>Utility</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/pngcrush.xml" />
+  <implementation arch="Windows-*" main="pngcrush.exe" version="{version}" released="{released}" stability="stable">
+    <manifest-digest />
+    <archive href="http://downloads.sourceforge.net/pmt/pngcrush-{version}.zip" type="application/zip" />
+  </implementation>
+</interface>

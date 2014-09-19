@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Scala</name>
+  <summary xml:lang="en">functional and object-oriented programming language</summary>
+  <summary xml:lang="de">funktionale und objektorientierte Programmiersprache</summary>
+  <description xml:lang="en">Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description>
+  <description xml:lang="de">Scala ist eine funktionale und objektorientierte Programmiersprache auf Basis der Java Virtual Machine.</description>
+  <homepage>http://www.scala-lang.org/</homepage>
+  <icon href="http://0install.de/feeds/images/Scala.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/Scala.ico" type="image/vnd.microsoft.icon" />
+  <category>Development</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/Scala.xml" />
+  <group license="Scala">
+    <environment name="SCALA_HOME" insert="." mode="replace" />
+    <command name="run">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-Xmx256M</arg>
+        <arg>-Xms32M</arg>
+        <arg>-Dscala.home=$SCALA_HOME</arg>
+        <arg>-Dscala.usejavacp=true</arg>
+        <arg>-cp</arg>
+        <arg>$_TOOL_CLASSPATH</arg>
+        <arg>scala.tools.nsc.MainGenericRunner</arg>
+      </runner>
+    </command>
+    <command name="scalac">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-Xmx256M</arg>
+        <arg>-Xms32M</arg>
+        <arg>-Dscala.home=$SCALA_HOME</arg>
+        <arg>-Dscala.usejavacp=true</arg>
+        <arg>-cp</arg>
+        <arg>$_TOOL_CLASSPATH</arg>
+        <arg>scala.tools.nsc.Main</arg>
+      </runner>
+    </command>
+    <command name="scaladoc">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-Xmx256M</arg>
+        <arg>-Xms32M</arg>
+        <arg>-Dscala.home=$SCALA_HOME</arg>
+        <arg>-Dscala.usejavacp=true</arg>
+        <arg>-cp</arg>
+        <arg>$_TOOL_CLASSPATH</arg>
+        <arg>scala.tools.nsc.ScalaDoc</arg>
+      </runner>
+    </command>
+    <command name="scalap">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+        <arg>-Xmx256M</arg>
+        <arg>-Xms32M</arg>
+        <arg>-Dscala.home=$SCALA_HOME</arg>
+        <arg>-Dscala.usejavacp=true</arg>
+        <arg>-cp</arg>
+        <arg>$_TOOL_CLASSPATH</arg>
+        <arg>scala.tools.scalap.Main</arg>
+      </runner>
+    </command>
+    <group>
+      <environment name="_TOOL_CLASSPATH" insert="lib/jline.jar" mode="replace" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-actors.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-actors-migration.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-compiler.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-library.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scalap.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-partest.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-reflect.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/scala-swing.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/typesafe-config.jar" mode="append" />
+      <environment name="_TOOL_CLASSPATH" insert="lib/akka-actors.jar" mode="append" />
+      <implementation version="{version}" released="{released}" stability="stable">
+        <manifest-digest />
+        <archive href="http://www.scala-lang.org/files/archive/scala-{version}.tgz" type="application/x-compressed-tar" extract="scala-{version}" />
+      </implementation>
+    </group>
+  </group>
+</interface>

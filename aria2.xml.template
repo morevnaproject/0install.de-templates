@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>aria2</name>
+  <summary xml:lang="en">A lightweight multi-protocol and multi-source download utility</summary>
+  <summary xml:lang="de">Ein leichtgewichtiges Downloadwerkzeug für mehrere Protokolle und Quellen</summary>
+  <homepage>http://aria2.sourceforge.net/</homepage>
+  <category>Internet</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/aria2.xml" />
+  <group license="GPL v2 (GNU General Public License)">
+    <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable" main="aria2c.exe">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-{version}/aria2-{version}-mingw32msvc-build1.zip" extract="aria2-{version}-mingw32msvc-build1" />
+    </implementation>
+    <implementation arch="*-src" version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/aria2/stable/aria2-{version}/aria2-{version}.tar.bz2" extract="aria2-{version}" />
+    </implementation>
+  </group>
+</interface>

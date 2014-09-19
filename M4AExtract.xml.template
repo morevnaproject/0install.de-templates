@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>M4AExtract</name>
+  <summary xml:lang="en">a small tool that extracts M4As from MP4s</summary>
+  <summary xml:lang="de">ein kleines Tool, dass M4As aus MP4s extrahiert</summary>
+  <homepage>http://www.nanobyte.de/</homepage>
+  <category>Audio</category>
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/M4AExtract.xml" />
+  <group license="MIT/X Consortium License">
+    <requires interface="http://0install.de/feeds/MP4Box.xml">
+      <executable-in-path name="MP4Box" />
+    </requires>
+    <command name="run" path="M4AExtract.exe">
+      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://0install.de/files/hosted/m4aextract-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>

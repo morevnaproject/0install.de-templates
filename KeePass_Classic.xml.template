@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>KeePass Classic</name>
+  <summary xml:lang="en">free open source password manager</summary>
+  <summary xml:lang="de">kostenloser Open Source Passwort Manager</summary>
+  <description xml:lang="en">KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key file. So you only have to remember one single master password or select the key file to unlock the whole database. The databases are encrypted using the best and most secure encryption algorithms currently known (AES and Twofish).
+Classic runs on all Windows systems without any prerequisites.</description>
+  <description xml:lang="de">KeePass ist ein kostenloser Open Source Passwort Manager, welcher Ihnen hilft Ihre Passwörter auf sichere Art und Weise zu verwalten. Sie können alle Ihre Passwörter in einer Datenbank ablegen, welche mit einem Master-Passwort oder einer Schlüsseldatei gesichert ist. So müssen Sie sich nur ein einzelnes Passwort merken oder die Schlüsseldatei öffnen um die gesamte Datenbank freizugeben.  Die Datenbanken werden mit den derzeit besten und sichersten Verschlüsselungsalgorithmen (AES and Twofish) verschlüsselt.
+Classic läuft auf allen Windows-Systemen ohne weitere Abhängigkeiten.</description>
+  <homepage>http://keepass.info/</homepage>
+  <icon href="http://0install.de/feeds/images/KeePass.png" type="image/png" />
+  <icon href="http://0install.de/feeds/images/KeePass.ico" type="image/vnd.microsoft.icon" />
+  <category>Utility</category>
+  <feed-for interface="http://0install.de/feeds/KeePass_Classic.xml" />
+  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="KeePass.exe">
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-{version}.zip" type="application/zip" />
+    </implementation>
+  </group>
+</interface>
