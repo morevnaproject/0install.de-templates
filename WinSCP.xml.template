@@ -10,10 +10,10 @@
   <category>Network</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/WinSCP.xml" />
-  <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="winscp.exe">
+  <group if-0install-version="2.6.9.." arch="Windows-*" license="GPL v2 (GNU General Public License)" main="winscp.exe">
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/winscp/winscp{build}.zip" />
+      <archive href="http://downloads.sourceforge.net/winscp/winscp{build}.zip" type="application/zip" />
     </implementation>
   </group>
 </interface>

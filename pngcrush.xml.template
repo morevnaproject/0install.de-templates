@@ -7,7 +7,7 @@
   <category>Utility</category>
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/pngcrush.xml" />
-  <implementation arch="Windows-*" main="pngcrush.exe" version="{version}" released="{released}" stability="stable">
+  <implementation if-0install-version="2.6.8.." arch="Windows-*" main="pngcrush.exe" version="{version}" released="{released}" stability="stable">
     <manifest-digest />
     <archive href="http://downloads.sourceforge.net/pmt/pngcrush-{version}.zip" type="application/zip" />
   </implementation>

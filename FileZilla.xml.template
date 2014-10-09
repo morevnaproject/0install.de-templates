@@ -11,10 +11,10 @@
   <category>Network</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/FileZilla.xml" />
-  <group license="GPL v2 (GNU General Public License)">
+  <group if-0install-version="2.6.8.." license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable" main="filezilla.exe">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/filezilla/FileZilla_{version}_win32.zip" extract="FileZilla-{version}" />
+      <archive href="http://downloads.sourceforge.net/filezilla/FileZilla_{version}_win32.zip" type="application/zip" extract="FileZilla-{version}" />
     </implementation>
     <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="bin/filezilla">
       <manifest-digest />
