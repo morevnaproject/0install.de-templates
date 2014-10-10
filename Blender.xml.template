@@ -27,13 +27,13 @@
       <manifest-digest />
       <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-linux-glibc211-i686.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{build}-linux-glibc211-i686" />
     </implementation>
-    <implementation arch="MacOSX-x86_64" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
+    <!--<implementation arch="MacOSX-x86_64" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
       <manifest-digest />
       <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-OSX_10.6-x86_64.zip" type="application/zip" extract="Blender" />
     </implementation>
     <implementation arch="MacOSX-i386" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
       <manifest-digest />
       <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-OSX_10.6-fix-i386.zip" type="application/zip" extract="Blender" />
-    </implementation>
+    </implementation>-->
   </group>
 </interface>
