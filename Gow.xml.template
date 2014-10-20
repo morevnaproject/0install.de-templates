@@ -10,14 +10,18 @@
   <feed-for interface="http://0install.de/feeds/Gow.xml" />
   <group arch="Windows-*">
     <requires interface="http://0install.de/feeds/PuTTY.xml" importance="recommended">
-      <executable-in-path name="putty" />
-      <executable-in-path command="puttygen" name="puttygen" />
-      <executable-in-path command="pageant" name="pageant" />
-      <executable-in-path command="pscp" name="pscp" />
-      <executable-in-path command="psftp" name="psftp" />
+      <executable-in-path command="plink" name="ssh" />
+      <executable-in-path command="pscp" name="scp" />
+      <executable-in-path command="psftp" name="sftp" />
     </requires>
     <environment name="PATH" insert="bin" />
+    <executable-in-path command="gow" name="gow"/>
+    <executable-in-path command="clear" name="clear"/>
+    <executable-in-path command="whereis" name="whereis"/>
     <command name="run" path="bin/bash.exe" />
+    <command name="gow" path="bin/gow.bat" />
+    <command name="clear" path="bin/clear.bat" />
+    <command name="whereis" path="bin/whereis.bat" />
     <command name="awk" path="bin/awk.exe" />
     <command name="basename" path="bin/basename.exe" />
     <command name="bc" path="bin/bc.exe" />
@@ -56,7 +60,6 @@
     <command name="gfind" path="bin/gfind.exe" />
     <command name="grep" path="bin/grep.exe" />
     <command name="gsar" path="bin/gsar.exe" />
-    <command name="gow" path="bin/gow.bat" />
     <command name="gzip" path="bin/gzip.exe" />
     <command name="head" path="bin/head.exe" />
     <command name="hostid" path="bin/.exe" />
@@ -123,15 +126,10 @@
     <command name="xargs" path="bin/xargs.exe" />
     <command name="yes" path="bin/yes.exe" />
     <command name="zip" path="bin/zip.exe" />
-    <command name="whereis" path="bin/whereis.bat" />
-    <command name="clear" path="bin/clear.bat" />
-    <command name="scp" path="bin/scp.bat" />
-    <command name="sftp" path="bin/sftp.bat" />
-    <command name="ssh" path="bin/ssh.bat" />
+    <command name="sort" path="bin/gsort.exe" />
+    <command name="nano" path="bin/nano.exe" />
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <command name="sort" path="bin/gsort.exe" />
-      <command name="nano" path="bin/nano.exe" />
       <archive href="http://0install.de/files/hosted/gow-{version}.zip" type="application/zip" />
     </implementation>
   </group>
