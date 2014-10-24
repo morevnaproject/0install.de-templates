@@ -1,4 +1,5 @@
 Name,Website,RSS,Needs-build-variable,Self-hosted
+Apache_Ant,http://archive.apache.org/dist/ant/binaries/,,FALSE,FALSE
 Apache_Maven,http://maven.apache.org/docs/history.html,,FALSE,FALSE
 aria2,http://sourceforge.net/projects/aria2/files/stable/,http://sourceforge.net/projects/aria2/rss,FALSE,FALSE
 Audacity,http://sourceforge.net/projects/audacity/files/audacity/,http://sourceforge.net/projects/audacity/rss,FALSE,FALSE
