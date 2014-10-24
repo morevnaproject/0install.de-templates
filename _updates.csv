@@ -12,6 +12,7 @@ Doxygen,http://www.stack.nl/~dimitri/doxygen/download.html,,FALSE,FALSE
 Eclipse,http://www.eclipse.org/downloads/,https://eclipse.org/downloads/rss.php,TRUE,FALSE
 FileZilla,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/,http://sourceforge.net/projects/filezilla/rss,FALSE,FALSE
 GitExtensions,http://sourceforge.net/projects/gitextensions/files/Git%20Extensions/,http://sourceforge.net/projects/gitextensions/rss,FALSE,FALSE
+Gradle,http://services.gradle.org/distributions/,,FALSE,FALSE
 gnuplot,http://sourceforge.net/projects/gnuplot/files/gnuplot/,http://sourceforge.net/projects/gnuplot/rss,TRUE,FALSE
 Golly,http://sourceforge.net/projects/golly/files/golly/,http://sourceforge.net/projects/golly/rss,FALSE,FALSE
 Gow,https://github.com/bmatzelle/gow/releases,http://githubtags.higgsboson.tk/github/bmatzelle/gow.atom,FALSE,TRUE

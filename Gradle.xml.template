@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Gradle</name>
+  <summary xml:lang="en">A software project management and comprehension tool</summary>
+  <summary xml:lang="de">Ein Softwareprojeketmanagementwerkzeug</summary>
+  <homepage>http://www.gradle.org/</homepage>
+  <category>Development</category>
+  <needs-terminal />
+  <feed-for interface="http://0install.de/feeds/Gradle.xml" />
+  <group langs="en" license="The Apache Software License, Version 2.0">
+    <environment mode="append" name="GRADLE_OPTS" value=""/>
+    <environment insert="" mode="replace" name="APP_BASE_NAME"/>
+    <command name="run">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <arg>$GRADLE_OPTS</arg>
+        <arg>-Dorg.gradle.appname=$APP_BASE_NAME</arg>
+        <arg>-classpath</arg>
+        <arg>org.gradle.launcher.GradleMain</arg>
+      </runner>
+    </command>
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest />
+      <archive href="https://services.gradle.org/distributions/gradle-{version}-bin.zip" type="application/zip" extract="gradle-{version}" />
+    </implementation>
+  </group>
+</interface>
