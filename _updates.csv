@@ -36,6 +36,8 @@ pngcrush,http://sourceforge.net/projects/pmt/files/pngcrush-executables/,http://
 PuTTY,http://the.earth.li/~sgtatham/putty/latest/x86/,,FALSE,FALSE
 Scala,http://www.scala-lang.org/download/all.html,http://feeds.feedburner.com/ScalaSoftwareReleases,FALSE,FALSE
 ScummVM,http://sourceforge.net/projects/scummvm/files/scummvm/,http://sourceforge.net/projects/scummvm/rss,FALSE,FALSE
+Sublime_Text2,http://www.sublimetext.com/2,,FALSE,FALSE
+Sublime_Text3,http://www.sublimetext.com/3,,FALSE,FALSE
 VirtualDub,http://sourceforge.net/projects/virtualdub/files/virtualdub-win/,http://sourceforge.net/projects/virtualdub/rss,FALSE,FALSE
 VLC,http://get.videolan.org/vlc/,http://images.videolan.org/videolan-news.rss,FALSE,FALSE
 WinMerge,http://sourceforge.net/projects/winmerge/files/stable/,http://sourceforge.net/projects/winmerge/rss,FALSE,FALSE
