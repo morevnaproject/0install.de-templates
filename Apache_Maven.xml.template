@@ -24,7 +24,7 @@
     </command>
     <command name="mvnDebug">
       <environment name="MAVEN_DEBUG_OPTS" value="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000" mode="replace" />
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre" command="java">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jdk" command="java">
         <arg>$MAVEN_OPTS</arg>
         <arg>$MAVEN_DEBUG_OPTS</arg>
         <arg>-classpath</arg>
@@ -36,7 +36,7 @@
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://www.apache.org/dist/maven/maven-3/{version}/binaries/apache-maven-{version}-bin.tar.gz" type="application/x-compressed-tar" extract="apache-maven-{version}" />
+      <archive href="http://archive.apache.org/dist/maven/maven-3/{version}/binaries/apache-maven-{version}-bin.tar.gz" type="application/x-compressed-tar" extract="apache-maven-{version}" />
     </implementation>
   </group>
 </interface>
