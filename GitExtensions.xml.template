@@ -9,7 +9,7 @@
   <category>Development</category>
   <feed-for interface="http://0install.de/feeds/GitExtensions.xml" />
   <group>
-    <requires interface="http://0install.de/feeds/msysgit.xml" os="Windows">
+    <requires interface="http://repo.roscidus.com/git/core">
       <environment name="GITEXT_GIT" insert="." mode="replace" />
     </requires>
     <requires interface="http://0install.de/feeds/PuTTY.xml" os="Windows" importance="recommended">
