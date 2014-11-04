@@ -13,16 +13,16 @@
   <feed-for interface="http://0install.de/feeds/Boo.xml" />
   <group license="MIT/BSD style">
     <command name="run" path="bin/boo.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booc" path="bin/booc.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booi" path="bin/booi.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <command name="booish" path="bin/booish.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run" />
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />

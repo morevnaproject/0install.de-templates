@@ -20,10 +20,10 @@
       <executable-in-path name="notepad++" />
     </requires>
     <command name="run" path="GitExtensions.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
     </command>
     <command name="translate" path="TranslateApp.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
     </command>
     <implementation version="{version}" stability="stable" released="{released}">
       <manifest-digest />

@@ -8,7 +8,7 @@
   <feed-for interface="http://0install.de/feeds/LightTag.xml" />
   <group license="MIT/X Consortium License">
     <command name="run" path="LightTag.exe">
-      <runner interface="http://0install.de/feeds/cli/cli.xml" />
+      <runner interface="http://0install.de/feeds/cli/cli.xml" command="run-gui" />
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
