@@ -12,6 +12,7 @@ DOSBox,http://sourceforge.net/projects/dosbox/files/dosbox/,http://sourceforge.n
 Doxygen,http://www.stack.nl/~dimitri/doxygen/download.html,,FALSE,FALSE
 Eclipse,http://www.eclipse.org/downloads/,https://eclipse.org/downloads/rss.php,TRUE,FALSE
 FileZilla,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/,http://sourceforge.net/projects/filezilla/rss,FALSE,FALSE
+GDisk,http://sourceforge.net/projects/gptfdisk/files/gptfdisk/,http://sourceforge.net/projects/gptfdisk/rss,FALSE,FALSE
 GitExtensions,http://sourceforge.net/projects/gitextensions/files/Git%20Extensions/,http://sourceforge.net/projects/gitextensions/rss,FALSE,FALSE
 Gradle,http://services.gradle.org/distributions/,,FALSE,FALSE
 gnuplot,http://sourceforge.net/projects/gnuplot/files/gnuplot/,http://sourceforge.net/projects/gnuplot/rss,TRUE,FALSE
