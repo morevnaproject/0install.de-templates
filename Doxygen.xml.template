@@ -8,11 +8,11 @@
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="doxygen.exe" />
     <command name="doxyindexer" path="doxyindexer.exe" />
-    <implementation arch="Windows-i486" version="{version}" released="{released}">
+    <implementation arch="Windows-i486" stability="stable" version="{version}" released="{released}">
       <manifest-digest />
       <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-{version}.windows.bin.zip" type="application/zip" />
     </implementation>
-    <implementation arch="Windows-x86_64" version="{version}" released="{released}">
+    <implementation arch="Windows-x86_64" stability="stable" version="{version}" released="{released}">
       <manifest-digest />
       <archive href="http://ftp.stack.nl/pub/users/dimitri/doxygen-{version}.windows.x64.bin.zip" type="application/zip" />
     </implementation>

@@ -17,23 +17,23 @@
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-win32-x86_64.zip&amp;r=1" type="application/zip" extract="eclipse" />
     </implementation>
-    <implementation version="{version}" arch="Windows-i486" main="eclipse.exe">
+    <implementation version="{version}" stability="stable" arch="Windows-i486" main="eclipse.exe">
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-win32.zip&amp;r=1" type="application/zip" extract="eclipse" />
     </implementation>
-    <implementation version="{version}" arch="Linux-x86_64" main="eclipse">
+    <implementation version="{version}" stability="stable" arch="Linux-x86_64" main="eclipse">
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-linux-gtk-x86_64.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
     </implementation>
-    <implementation version="{version}" arch="Linux-i586" main="eclipse">
+    <implementation version="{version}" stability="stable" arch="Linux-i586" main="eclipse">
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-linux-gtk.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
     </implementation>
-    <implementation version="{version}" arch="MacOSX-x86_64" main="Eclipse.app/Contents/MacOS/eclipse">
+    <implementation version="{version}" stability="stable" arch="MacOSX-x86_64" main="Eclipse.app/Contents/MacOS/eclipse">
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-macosx-cocoa-x86_64.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
     </implementation>
-    <implementation version="{version}" arch="MacOSX-i686" main="Eclipse.app/Contents/MacOS/eclipse">
+    <implementation version="{version}" stability="stable" arch="MacOSX-i686" main="Eclipse.app/Contents/MacOS/eclipse">
       <manifest-digest />
       <archive href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/{build}/SR1/eclipse-standard-{build}-SR1-macosx-cocoa.tar.gz&amp;r=1" type="application/x-compressed-tar" extract="eclipse" />
     </implementation>
