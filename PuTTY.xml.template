@@ -11,7 +11,7 @@
   <category>Network</category>
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/PuTTY.xml" />
-  <group arch="Windows-*" license="MIT/X Consortium License">
+  <group if-0install-version="2.6.8.." arch="Windows-*" license="MIT/X Consortium License">
     <command name="run" path="PUTTY.EXE" />
     <command name="putty" path="PUTTY.EXE" />
     <command name="puttygen" path="PUTTYGEN.EXE" />
