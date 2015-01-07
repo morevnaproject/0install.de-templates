@@ -16,11 +16,11 @@
     <command name="unpak200" path="bin/unpak200.exe" />
     <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://0install.de/files/hosted/jre-{build}-windows-x64.tar.gz" type="application/x-compressed-tar" extract="jre1.8.0_11" />
+      <archive href="http://0install.de/files/hosted/jre-{build}-windows-x64.tar.gz" type="application/x-compressed-tar" />
     </implementation>
     <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://0install.de/files/hosted/jre-{build}-windows-i586.tar.gz" type="application/x-compressed-tar" extract="jre1.8.0_11" />
+      <archive href="http://0install.de/files/hosted/jre-{build}-windows-i586.tar.gz" type="application/x-compressed-tar" />
     </implementation>
   </group>
 </interface>
