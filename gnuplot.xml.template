@@ -14,13 +14,9 @@
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="bin/wgnuplot.exe" />
     <command name="console" path="bin/gnuplot.exe" />
-    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
+    <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/gnuplot/gp{build}-win64.zip" type="application/zip" extract="gnuplot" />
-    </implementation>
-    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
-      <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/gnuplot/gp{build}-win32.zip" type="application/zip" extract="gnuplot" />
+      <archive href="http://downloads.sourceforge.net/gnuplot/gp{build}-win32-mingw.zip" type="application/zip" extract="gnuplot" />
     </implementation>
   </group>
 </interface>
