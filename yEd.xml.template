@@ -15,7 +15,7 @@
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://www.yworks.com/products/yed/demo/yEd-{version}.zip" type="application/zip" extract="yed-{version}" />
+      <archive href="http://live.yworks.com/yed-downloads/yEd-{version}.zip" type="application/zip" extract="yed-{version}" />
     </implementation>
   </group>
 </interface>
