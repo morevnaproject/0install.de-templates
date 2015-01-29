@@ -14,7 +14,10 @@
   <group if-0install-version="2.6.8.." license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable" main="filezilla.exe">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/filezilla/FileZilla_{version}_win32.zip" type="application/zip" extract="FileZilla-{version}" />
+      <recipe>
+        <archive href="http://downloads.sourceforge.net/filezilla/FileZilla_{version}_win32.zip" type="application/zip" extract="FileZilla-{version}" />
+        <archive href="http://0install.de/files/app-configs/FileZilla.zip" type="application/zip" />
+      </recipe>
     </implementation>
     <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="bin/filezilla">
       <manifest-digest />
