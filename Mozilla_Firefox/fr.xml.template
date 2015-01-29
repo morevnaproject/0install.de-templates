@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.zh-CN/schema/injector/interface/interface.xsd http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities http://0install.zh-CN/schema/zh-CNsktop-integration/capabilities/capabilities.xsd" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Mozilla Firefox (French)</name>
+  <summary xml:lang="fr">libre navigateur web du projet Mozilla</summary>
+  <homepage>http://www.mozilla.com/</homepage>
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.ico" type="image/vnd.microsoft.icon" />
+  <icon href="http://0install.de/feed-icons/Mozilla_Firefox.png" type="image/png" />
+  <category>Network</category>
+  <feed-for interface="http://0install.de/feeds/Mozilla_Firefox/fr.xml" />
+  <group langs="fr" license="MPL (Mozilla Public License)">
+    <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable" main="firefox.exe">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{version}/win32/fr/Firefox%20Setup%20{version}.exe" type="application/x-7z-compressed" extract="core" />
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" type="application/zip" />
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-i686" version="{version}" released="{released}" stability="stable" main="run-mozilla.sh">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{version}/linux-i686/fr/firefox-{version}.tar.bz2" type="application/x-bzip-compressed-tar" extract="firefox" />
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" type="application/zip" />
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="run-mozilla.sh">
+      <manifest-digest />
+      <recipe>
+        <archive href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{version}/linux-x86_64/fr/firefox-{version}.tar.bz2" type="application/x-bzip-compressed-tar" extract="firefox" />
+        <archive href="http://0install.de/files/app-configs/Mozilla_Firefox.zip" type="application/zip" />
+      </recipe>
+    </implementation>
+  </group>
+</interface>

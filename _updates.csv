@@ -24,6 +24,7 @@ KeePass_Classic,http://sourceforge.net/projects/keepass/files/KeePass%201.x/,htt
 KeePass_Pro,http://sourceforge.net/projects/keepass/files/KeePass%202.x/,http://sourceforge.net/projects/keepass/rss,FALSE,FALSE
 LibreOffice,http://www.libreoffice.org/download/libreoffice-fresh/,,FALSE,FALSE
 Mediathek,http://sourceforge.net/projects/zdfmediathk/files/Mediathek/,http://sourceforge.net/projects/zdfmediathk/rss,FALSE,FALSE
+Mozilla_Firefox,http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/,,FALSE,FALSE
 MPC-HC,http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20x64/,http://sourceforge.net/projects/mpc-hc/rss,FALSE,FALSE
 msysgit,https://github.com/msysgit/msysgit/releases/,http://githubtags.higgsboson.tk/github/msysgit/msysgit.atom,FALSE,FALSE
 NetBeans,https://netbeans.org/downloads/,https://netbeans.org/rss-091.xml,TRUE,FALSE
