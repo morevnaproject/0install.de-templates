@@ -20,6 +20,7 @@ Golly,http://sourceforge.net/projects/golly/files/golly/,http://sourceforge.net/
 Gow,https://github.com/bmatzelle/gow/releases,http://githubtags.higgsboson.tk/github/bmatzelle/gow.atom,FALSE,TRUE
 GTK,http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/,http://sourceforge.net/projects/pidgin/rss,FALSE,FALSE
 HDGraph,http://sourceforge.net/projects/hdgraph/files/HDGraph/,http://sourceforge.net/projects/hdgraph/rss,FALSE,FALSE
+Jitsi,https://download.jitsi.org/jitsi/msi/,,FALSE,FALSE
 KeePass_Classic,http://sourceforge.net/projects/keepass/files/KeePass%201.x/,http://sourceforge.net/projects/keepass/rss,FALSE,FALSE
 KeePass_Pro,http://sourceforge.net/projects/keepass/files/KeePass%202.x/,http://sourceforge.net/projects/keepass/rss,FALSE,FALSE
 LibreOffice,http://www.libreoffice.org/download/libreoffice-fresh/,,FALSE,FALSE
