@@ -7,6 +7,7 @@ Avidemux,http://sourceforge.net/projects/avidemux/files/avidemux/,http://sourcef
 Blender,http://download.blender.org/release/,,TRUE,FALSE
 Boo,http://dist.codehaus.org/boo/distributions/,,FALSE,FALSE
 CDBurnerXP,http://download.cdburnerxp.se/portable/,https://cdburnerxp.se/rss/news.xml,FALSE,FALSE
+CMake,http://www.cmake.org/download/,,TRUE,FALSE
 DCPlusPlus,http://sourceforge.net/projects/dcplusplus/files/,http://sourceforge.net/projects/dcplusplus/rss,FALSE,FALSE
 DOSBox,http://sourceforge.net/projects/dosbox/files/dosbox/,http://sourceforge.net/projects/dosbox/rss,FALSE,TRUE
 Doxygen,http://www.stack.nl/~dimitri/doxygen/download.html,,FALSE,FALSE
