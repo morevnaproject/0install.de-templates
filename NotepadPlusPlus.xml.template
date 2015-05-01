@@ -15,7 +15,7 @@
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
       <recipe>
-        <archive href="http://download.tuxfamily.org/notepadplus/{version}/npp.{version}.bin.zip" type="application/zip" />
+        <archive href="http://notepad-plus-plus.org/repository/6.x/{version}/npp.{version}.bin.zip" type="application/zip" />
         <remove path="doLocalConf.xml" />
       </recipe>
     </implementation>
