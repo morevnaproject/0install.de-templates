@@ -20,7 +20,7 @@
     <command name="base" path="program/sbase.exe" />
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://download.documentfoundation.org/libreoffice/stable/{version}/win/x86/LibreOffice_{version}_Win_x86.msi" type="application/x-msi" extract="SourceDir" />
+      <archive href="http://downloadarchive.documentfoundation.org/libreoffice/old/{version}/win/x86/LibreOffice_{version}_Win_x86.msi" type="application/x-msi" extract="SourceDir" />
     </implementation>
   </group>
 </interface>
