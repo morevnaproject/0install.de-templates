@@ -127,7 +127,7 @@
     <implementation version="{version}" released="{released}" stability="stable">
       <command name="vim" path="share/vim/vim74/vim.exe" />
       <manifest-digest />
-      <archive href="https://github.com/msysgit/msysgit/releases/download/Git-{version}-preview20140611/PortableGit-{version}-preview{build}.7z" type="application/x-7z-compressed" />
+      <archive href="https://github.com/msysgit/msysgit/releases/download/Git-{version}-{build}/PortableGit-{version}-{build}.7z" type="application/x-7z-compressed" />
     </implementation>
   </group>
 </interface>
