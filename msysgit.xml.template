@@ -5,12 +5,12 @@
   <summary xml:lang="de">dezentrales Versionsverwaltungssystem</summary>
   <description xml:lang="en">Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <description xml:lang="de">Git ist ein mächtiges Versionsverwaltungssystem mit dem Ziel das schnellste denzentrale Quellcodeverwaltungstool auf diesem Planeten zu sein.</description>
-  <homepage>http://msysgit.github.com/</homepage>
-  <icon href="http://msysgit.github.io/img/gwindows_logo.png" type="image/png" />
+  <homepage>https://git-for-windows.github.io/</homepage>
+  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png" />
   <category>Development</category>
   <needs-terminal />
   <feed-for interface="http://0install.de/feeds/msysgit.xml" />
-  <group arch="Windows-*" license="GPL v2 (GNU General Public License)">
+  <group license="GPL v2 (GNU General Public License)">
     <requires interface="http://0install.de/feeds/PuTTY.xml" distribution="">
       <environment name="GIT_SSH" insert="plink.exe" mode="replace" />
     </requires>
@@ -124,10 +124,15 @@
     <command name="wish" path="bin/wish.exe" />
     <command name="wish85" path="bin/wish85.exe" />
     <command name="xargs" path="bin/xargs.exe" />
-    <implementation version="{version}" released="{released}" stability="stable">
+    <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable">
       <command name="vim" path="share/vim/vim74/vim.exe" />
       <manifest-digest />
-      <archive href="https://github.com/msysgit/msysgit/releases/download/Git-{version}-{build}/PortableGit-{version}-{build}.7z" type="application/x-7z-compressed" />
+      <archive href="https://github.com/git-for-windows/git/releases/download/v{version}.windows.1/PortableGit-{version}-64-bit.7z.exe" type="application/x-7z-compressed" />
+    </implementation>
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable">
+      <command name="vim" path="share/vim/vim74/vim.exe" />
+      <manifest-digest />
+      <archive href="https://github.com/git-for-windows/git/releases/download/v{version}.windows.1/PortableGit-{version}-32-bit.7z.exe" type="application/x-7z-compressed" />
     </implementation>
   </group>
 </interface>
