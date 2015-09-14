@@ -12,10 +12,10 @@
   <category>Utility</category>
   <feed-for interface="http://0install.de/feeds/WinMerge.xml" />
   <group license="GPL v2 (GNU General Public License)">
-    <requires interface="http://0install.de/feeds/MSVC71.xml">
+    <requires interface="http://0install.de/feeds/MSVC90.xml">
       <environment name="PATH" insert="." mode="append" />
     </requires>
-    <implementation arch="Windows-*" version="{version}" released="{released}" stability="stable" main="WinMergeU.exe">
+    <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="WinMergeU.exe">
       <manifest-digest />
       <archive href="http://downloads.sourceforge.net/winmerge/stable/{version}/WinMerge-{version}-exe.zip" type="application/zip" extract="WinMerge-{version}-exe" />
     </implementation>
