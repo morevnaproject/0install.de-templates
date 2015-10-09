@@ -24,7 +24,7 @@
     </command>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://0install.de/files/hosted/DOSBox-{version}.zip" type="application/zip" />
+      <archive href="DOSBox-{version}.zip" type="application/zip" />
     </implementation>
   </group>
 </interface>

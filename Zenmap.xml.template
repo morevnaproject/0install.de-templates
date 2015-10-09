@@ -16,7 +16,7 @@
     </requires>
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://0install.de/files/hosted/zenmap-{version}.zip" type="application/zip" />
+      <archive href="zenmap-{version}.zip" type="application/zip" />
     </implementation>
   </group>
 </interface>

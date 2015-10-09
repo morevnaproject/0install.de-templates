@@ -130,7 +130,7 @@
     <command name="nano" path="bin/nano.exe" />
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
-      <archive href="http://0install.de/files/hosted/gow-{version}.zip" type="application/zip" />
+      <archive href="gow-{version}.zip" type="application/zip" />
     </implementation>
   </group>
 </interface>
