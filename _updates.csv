@@ -18,6 +18,7 @@ GDisk,http://sourceforge.net/projects/gptfdisk/files/gptfdisk/,http://sourceforg
 GitExtensions,http://sourceforge.net/projects/gitextensions/files/Git%20Extensions/,http://sourceforge.net/projects/gitextensions/rss,FALSE,FALSE
 Gradle,http://services.gradle.org/distributions/,,FALSE,FALSE
 gnuplot,http://sourceforge.net/projects/gnuplot/files/gnuplot/,http://sourceforge.net/projects/gnuplot/rss,TRUE,FALSE
+Git_for_Windows,https://github.com/git-for-windows/git/releases/latest,,FALSE,FALSE
 Golly,http://sourceforge.net/projects/golly/files/golly/,http://sourceforge.net/projects/golly/rss,FALSE,FALSE
 Gow,https://github.com/bmatzelle/gow/releases,http://githubtags.higgsboson.tk/github/bmatzelle/gow.atom,FALSE,TRUE
 GTK,http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/,http://sourceforge.net/projects/pidgin/rss,FALSE,FALSE
@@ -29,7 +30,6 @@ LibreOffice,http://www.libreoffice.org/download/libreoffice-fresh/,,FALSE,FALSE
 Mediathek,http://sourceforge.net/projects/zdfmediathk/files/Mediathek/,http://sourceforge.net/projects/zdfmediathk/rss,FALSE,FALSE
 Mozilla_Firefox,http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/,,FALSE,FALSE
 MPC-HC,http://sourceforge.net/projects/mpc-hc/files/MPC%20HomeCinema%20-%20x64/,http://sourceforge.net/projects/mpc-hc/rss,FALSE,FALSE
-msysgit,https://github.com/msysgit/msysgit/releases/,http://githubtags.higgsboson.tk/github/msysgit/msysgit.atom,FALSE,FALSE
 NetBeans,https://netbeans.org/downloads/,https://netbeans.org/rss-091.xml,TRUE,FALSE
 Nmap,http://nmap.org/dist/,,FALSE,TRUE (only Zenmap)
 NotepadPlusPlus,http://notepad-plus-plus.org/download/,http://notepad-plus-plus.org/feed.rss,FALSE,FALSE
