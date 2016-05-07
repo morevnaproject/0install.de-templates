@@ -13,11 +13,11 @@
   <group license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="mpc-hc64.exe">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/mpc-hc/MPC-HC.{version}.x64.zip" type="application/zip" extract="MPC-HC.{version}.x64" />
+      <archive href="https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20x64/MPC-HC_v{version}_x64/MPC-HC.{version}.x64.zip" type="application/zip" extract="MPC-HC.{version}.x64" />
     </implementation>
     <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="mpc-hc.exe">
       <manifest-digest />
-      <archive href="http://downloads.sourceforge.net/mpc-hc/MPC-HC.{version}.x86.zip" type="application/zip" extract="MPC-HC.{version}.x86" />
+      <archive href="https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20Win32/MPC-HC_v{version}_x86/MPC-HC.1.7.10.x86.zip" type="application/zip" extract="MPC-HC.{version}.x86" />
     </implementation>
   </group>
 </interface>
