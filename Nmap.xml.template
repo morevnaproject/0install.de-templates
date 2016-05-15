@@ -19,10 +19,10 @@
     <command name="ndiff" path="ndiff.py">
       <runner interface="http://repo.roscidus.com/python/python" />
     </command>
-    <command name="install-winpcap" path="winpcap-nmap-4.12" />
     <implementation version="{version}" released="{released}" stability="stable">
       <manifest-digest />
       <archive href="http://nmap.org/dist/nmap-{version}-win32.zip" type="application/zip" extract="nmap-{version}" />
+      <command name="install-winpcap" path="winpcap-nmap-4.13" />
     </implementation>
   </group>
 </interface>
