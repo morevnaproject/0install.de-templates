@@ -13,27 +13,27 @@
   <group license="GPL v2 (GNU General Public License)">
     <implementation arch="Windows-x86_64" version="{version}" released="{released}" stability="stable" main="blender.exe">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-windows64.zip" type="application/zip" extract="blender-{build}-windows64" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-windows64.zip" type="application/zip" extract="blender-{versionreal}-windows64" />
     </implementation>
     <implementation arch="Windows-i486" version="{version}" released="{released}" stability="stable" main="blender.exe">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-windows32.zip" type="application/zip" extract="blender-{build}-windows32" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-windows32.zip" type="application/zip" extract="blender-{versionreal}-windows32" />
     </implementation>
     <implementation arch="Linux-x86_64" version="{version}" released="{released}" stability="stable" main="blender">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-linux-glibc211-x86_64.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{build}-linux-glibc211-x86_64" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-linux-glibc211-x86_64.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{versionreal}-linux-glibc211-x86_64" />
     </implementation>
     <implementation arch="Linux-i686" version="{version}" released="{released}" stability="stable" main="blender">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-linux-glibc211-i686.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{build}-linux-glibc211-i686" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-linux-glibc211-i686.tar.bz2" type="application/x-bzip-compressed-tar" extract="blender-{versionreal}-linux-glibc211-i686" />
     </implementation>
     <!--<implementation arch="MacOSX-x86_64" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-OSX_10.6-x86_64.zip" type="application/zip" extract="Blender" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-OSX_10.6-x86_64.zip" type="application/zip" extract="Blender" />
     </implementation>
     <implementation arch="MacOSX-i386" version="{version}" released="{released}" stability="stable" main="blender.app/Contents/MacOS/blender">
       <manifest-digest />
-      <archive href="http://download.blender.org/release/Blender{build}/blender-{build}-OSX_10.6-fix-i386.zip" type="application/zip" extract="Blender" />
+      <archive href="http://download.blender.org/release/Blender{versionshort}/blender-{versionreal}-OSX_10.6-fix-i386.zip" type="application/zip" extract="Blender" />
     </implementation>-->
   </group>
 </interface>
